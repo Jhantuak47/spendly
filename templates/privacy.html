@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy - Spendly{% endblock %}
+
+{% block content %}
+
+<section class="legal-section">
+    <div class="legal-inner">
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="legal-intro">Last updated: August 2026</p>
+
+        <div class="legal-content">
+            <h2>1. Introduction</h2>
+            <p>Your privacy is important to us. This privacy policy explains how Spendly collects, uses, and protects your personal information. We are committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this application, you can be assured that it will only be used in accordance with this privacy statement.</p>
+
+            <h2>2. Information We Collect</h2>
+            <p>We may collect the following information:</p>
+            <ul>
+                <li>Name and email address when you create an account</li>
+                <li>Financial information such as expense transactions and spending patterns</li>
+                <li>Device information including IP address and browser type</li>
+                <li>Usage data such as pages visited and features used</li>
+            </ul>
+
+            <h2>3. How We Use Your Information</h2>
+            <p>The information we collect from you may be used in the following ways:</p>
+            <ul>
+                <li>To provide and improve our services</li>
+                <li>To personalize your experience and deliver content relevant to your interests</li>
+                <li>To send periodic emails regarding your account or request feedback</li>
+                <li>To monitor and analyze trends, usage, and activities for security purposes</li>
+            </ul>
+
+            <h2>4. Data Security</h2>
+            <p>We implement a variety of security measures to maintain the safety of your personal information. Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential.</p>
+
+            <h2>5. Cookies</h2>
+            <p>If you leave a comment on our site you may opt-in to save your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p>
+
+            <h2>6. Third-Party Services</h2>
+            <p>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential.</p>
+
+            <h2>7. Children's Privacy</h2>
+            <p>Our Services are not intended for children under the age of 13. We do not knowingly collect Personal Information from children under 13. If we become aware that a child under 13 has provided us with Personal Information, we will take steps to delete such information and terminate the child's account.</p>
+
+            <h2>8. Changes to Our Privacy Policy</h2>
+            <p>If we decide to change our privacy policy, we will post those changes on this page. This policy is effective as of August 25, 2026.</p>
+
+            <h2>9. Contacting Us</h2>
+            <p>If there are any questions regarding this privacy policy, you may contact us at support@spendly.com. Please note that email communication may not be secure, so please do not include sensitive information in your emails to us.</p>
+
+            <h2>10. Your Rights</h2>
+            <p>You have the right to access the personal information we hold about you. You may also request correction of inaccurate data, request deletion of your data, or restrict processing of your personal information. To exercise these rights, please contact us using the information provided above.</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block head %}
+<style>
+    .legal-section {
+        padding: 4rem 2rem;
+    }
+
+    .legal-inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+    }
+
+    .legal-title {
+        font-family: var(--font-display);
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--ink);
+    }
+
+    .legal-intro {
+        color: var(--ink-muted);
+        font-size: 0.95rem;
+        margin-bottom: 3rem;
+    }
+
+    .legal-content h2 {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: var(--accent);
+    }
+
+    .legal-content h2:first-child {
+        margin-top: 0;
+    }
+
+    .legal-content p {
+        margin-bottom: 1.5rem;
+        color: var(--ink-soft);
+        line-height: 1.8;
+    }
+
+    .legal-content ul {
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        color: var(--ink-soft);
+        line-height: 1.8;
+    }
+
+    .legal-content li {
+        margin-bottom: 0.75rem;
+    }
+</style>
+{% endblock %}

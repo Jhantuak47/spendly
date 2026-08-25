@@ -1,0 +1,38 @@
+Task: Add footer links to @templates/base.html
+
+Location: Footer section of @templates/base.html
+
+Add two links:
+1. "Terms and Conditions" — href="#"
+2. "Privacy Policy" — href="#"
+
+Requirements:
+- Both links point to "#" (placeholder, no real URL yet)
+- Render as plain text links (no icons, buttons, or special styling)
+
+// create routes
+
+Once the footer links are in place, create two new routes in [@app.py]:
+
+1. Route: /terms-and-conditions
+   - Renders a new template: templates/terms.html
+   - Page should extend @templates/base.html
+   - Placeholder content: a heading "Terms and Conditions" and one paragraph of dummy text
+
+2. Route: /privacy-policy
+   - Renders a new template: templates/privacy.html
+   - Page should extend @templates/base.html
+   - Placeholder content: a heading "Privacy Policy" and one paragraph of dummy text
+
+Requirements:
+- Keep route/view naming consistent with the existing project's conventions
+- Do not add extra styling, navigation, or content beyond the placeholder heading + paragraph
+
+Update the footer links to point out the privacy and terms and codition page.
+
+ make sure the appearace of @templates/terms.html matches the webside theme.
+  and add few more condition based on standard terms and condition.
+
+
+Modify only the hero section in @templates/landing.html and @static/css/landing.css 
+to match this image exactly. do not tourch any other part of the page.
